@@ -1,0 +1,24 @@
+{
+  "name": "prom-pm2-cluster",
+  "version": "1.0.0",
+  "description": "NPM package for easy integration of prometheus into pm2 process/cluster",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveen1512/prom-pm2-cluster.git"
+  },
+  "author": "Naveen Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naveen1512/prom-pm2-cluster/issues"
+  },
+  "homepage": "https://github.com/naveen1512/prom-pm2-cluster#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pino": "^8.0.0",
+    "pm2": "^5.2.2",
+    "prom-client": "^14.1.1"
+  }
+}
